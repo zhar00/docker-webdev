@@ -12,7 +12,7 @@
             var_dump($x);
 
             echo"<br>";
-            array_slice($x,2,0,'$');
+            array_splice($x,2,0,'$');
             var_dump($x);
         ?>
     </p>
